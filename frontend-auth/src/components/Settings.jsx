@@ -17,7 +17,7 @@ function Settings() {
             <div className="card w-full max-w-2xl bg-base-100 shadow-2xl overflow-hidden">
                 
                 {/* 1. Header Section (Banner & Avatar) */}
-                <div className="relative h-48 md:h-56 bg-gradient-to-r from-blue-400 to-indigo-500" onClick={handleAvatarClick}>
+                <div className="relative h-48 md:h-56 bg-gradient-to-r from-blue-400 to-indigo-500">
                     {/* Background Banner Image (Optional) */}
                     <img 
                         src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=1000" 
@@ -29,7 +29,7 @@ function Settings() {
                     <div className="absolute -bottom-12 left-8 z-10">
     {/* Added 'relative' to this container for positioning the pencil */}
     {/* Added onClick={handleAvatarClick} assuming you have that function from previous steps */}
-    <div className="avatar group cursor-pointer relative">
+    <div className="avatar group cursor-pointer relative" onClick={handleAvatarClick}>
         <input
             type="file"
             ref={fileInputRef}
