@@ -1,0 +1,2 @@
+1. destroy token after changing password 
+2. logging in double time donot allowed
