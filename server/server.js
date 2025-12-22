@@ -29,7 +29,7 @@ connectToDb();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors(corsOptions));
-app.options("*", cors(corsOptions));
+app.options("/*", cors(corsOptions));
 app.use('/api/auth', authRouter);
 app.use('/api/settings', settingsRouter);
 app.use('/api/Dashboard', homeRouter);
