@@ -29,7 +29,7 @@ function Settings() {
                     <div className="absolute -bottom-12 left-8 z-10">
     {/* Added 'relative' to this container for positioning the pencil */}
     {/* Added onClick={handleAvatarClick} assuming you have that function from previous steps */}
-    <div className="avatar group cursor-pointer relative" onClick={handleAvatarClick}>
+    <div className="avatar group cursor-pointer relative">
         <input
             type="file"
             ref={fileInputRef}
