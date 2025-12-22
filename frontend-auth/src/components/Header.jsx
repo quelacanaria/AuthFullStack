@@ -4,8 +4,7 @@ import axios from 'axios';
 import { useContext } from 'react';
 import { Appcontent } from './AppContext';
 function Header({show}){
-const {userInformation} = useContext(Appcontent);
-const url = 'http://localhost:3000';
+const {userInformation, url} = useContext(Appcontent);
 const navigate = useNavigate();
     const logout = async() => {
         try{
