@@ -15,8 +15,8 @@ const signAndSetToken = (res, user) => {
     
     res.cookie("token", accessToken, {
         httpOnly: true,
-        secure: false, //set true in https
-        sameSite: 'Lax',
+        secure: true, //set true in https
+        sameSite: 'none',
         maxAge: 30 * 24 * 60 * 60 * 1000
     });
     
