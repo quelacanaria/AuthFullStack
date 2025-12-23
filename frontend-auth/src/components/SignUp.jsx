@@ -111,7 +111,7 @@ function SignUp() {
                             {/* Action Links */}
                             <div className="flex justify-between items-center pt-2 text-xs">
                                 <Link to={'/'} className="link link-primary no-underline hover:underline">
-                                    Already have an account? Login
+                                    Back to Login
                                 </Link>
                                 <Link to={'/ForgotPassword'} className="link link-hover text-base-content/60 hover:text-primary">
                                     Forgot password?

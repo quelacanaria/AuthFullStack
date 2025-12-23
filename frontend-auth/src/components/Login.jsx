@@ -70,7 +70,7 @@ function Login() {
                                 
                                 <div className="flex justify-between items-center mt-3 text-xs">
                                     <Link to={'/Signup'} className="link link-primary no-underline hover:underline">
-                                        Create Account
+                                        Create Account?
                                     </Link>
                                     <Link to={'/ForgotPassword'} className="link link-hover text-base-content/60 hover:text-primary">
                                         Forgot password?

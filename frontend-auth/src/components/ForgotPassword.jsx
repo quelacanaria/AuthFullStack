@@ -99,10 +99,10 @@ function ForgotPassword() {
                             {/* Action Links */}
                             <div className="flex justify-between items-center pt-2 text-xs">
                                 <Link to={'/'} className="link link-primary no-underline hover:underline">
-                                    Back to Login
+                                    Back to Login?
                                 </Link>
                                 <Link to={'/Signup'} className="link link-hover text-base-content/60 hover:text-primary">
-                                    New here? Sign Up
+                                    Create account?
                                 </Link>
                             </div>
 
