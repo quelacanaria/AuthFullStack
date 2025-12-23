@@ -6,7 +6,6 @@ const connectToDb = require('./database/database.js');
 const authRouter = require('./routes/AuthRoutes.js');
 const homeRouter = require('./routes/DashboardRoutes.js');
 const adminRouter = require('./routes/AdminRoutes.js');
-const uploadRouter = require('./routes/UploadImgRoutes.js');
 const settingsRouter = require('./routes/SettingsRoutes.js');
 const app = express()
 
@@ -18,8 +17,6 @@ app.use('/api/auth', authRouter);
 app.use('/api/settings', settingsRouter);
 app.use('/api/Dashboard', homeRouter);
 app.use('/api/Admin', adminRouter);
-app.use('/api/Image', uploadRouter);
-
 app.get('/', (req, res) => {
     res.send('welcome to auth');
 });
